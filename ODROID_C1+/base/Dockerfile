@@ -1,4 +1,4 @@
-FROM osrf:ubuntu_armhf
+FROM osrf/ubuntu_armhf:trusty
 
 MAINTAINER Eduardo Feo eduardo@idsia.ch
 
