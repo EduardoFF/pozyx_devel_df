@@ -8,4 +8,8 @@ ENV HOME /home/root
 RUN apt-get update && apt-get install -y \
     build-essential \
     git \
-    python-dev 
+    python-dev \
+    python-pip
+
+RUN pip install pyserial
+
